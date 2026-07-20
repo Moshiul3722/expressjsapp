@@ -6,6 +6,8 @@ import express, {
 import { pool } from "./db";
 import { userRoute } from "./modules/user/user.route";
 import { profileRoute } from "./modules/profile/profile.route";
+import { authRoute } from "./modules/auth/auth.route";
+import logger from "./middleware/logger";
 
 const app: Application = express();
 
@@ -17,6 +19,8 @@ app.use(
   }),
 );
 
+app.use(logger);
+
 app.get("/", (req: Request, res: Response) => {
   // res.send('Hello World! he')
   res.status(200).json({
@@ -27,5 +31,6 @@ app.get("/", (req: Request, res: Response) => {
 
 app.use("/api/users", userRoute);
 app.use("/api/profile", profileRoute);
+app.use("/api/auth", authRoute);
 
 export default app;
