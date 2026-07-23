@@ -9,5 +9,6 @@ const config = {
   connectionString: (process.env.CONNECTION_STRING as string) || "",
   port: process.env.PORT,
   secret: process.env.JWT_SECRET,
+  refresh_secret: process.env.JWT_REFRESH_SECRET,
 };
 export default config;

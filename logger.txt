@@ -40,3 +40,13 @@ Method:, POST, URL:, /api/users, Time:, 1784567520972
 Method:, POST, URL:, /api/auth/login, Time:, 1784567891145
 Method:, GET, URL:, /api/users, Time:, 1784567910747
 Method:, GET, URL:, /api/users, Time:, 1784568043182
+Method:, GET, URL:, /api/users, Time:, 1784693583886
+Method:, POST, URL:, /api/auth/login, Time:, 1784693661023
+Method:, POST, URL:, /api/users, Time:, 1784693682805
+Method:, POST, URL:, /api/auth/login, Time:, 1784693737233
+Method:, GET, URL:, /api/users, Time:, 1784693759919
+Method:, POST, URL:, /api/auth/login, Time:, 1784694194307
+Method:, POST, URL:, /api/auth/login, Time:, 1784697889844
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784697969745
+Method:, POST, URL:, /api/auth/login, Time:, 1784698091778
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784699267681
