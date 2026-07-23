@@ -50,3 +50,15 @@ Method:, POST, URL:, /api/auth/login, Time:, 1784697889844
 Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784697969745
 Method:, POST, URL:, /api/auth/login, Time:, 1784698091778
 Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784699267681
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784787180835
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784787667198
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784788186324
+Method:, POST, URL:, /api/users, Time:, 1784789346950
+Method:, GET, URL:, /api/user/6, Time:, 1784789363962
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784789397142
+Method:, POST, URL:, /api/auth/login, Time:, 1784789413417
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784789494408
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784789535527
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784789607217
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784793672005
+Method:, POST, URL:, /api/auth/refresh-token, Time:, 1784793751955
